@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup</title>
+
+    <link rel="stylesheet" type="text/css" href="Styles.css"/>
+
+    <style type="text/css">
+        #form{
+            position:absolute;
+            left: 40%;
+            color: azure;
+            padding:10px;
+        }
+        form{
+            padding: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+<div id="form">
+    <form>
+        username: <input type="text" name="username" value="Username" />
+        <br/>
+        Password: <input type="password" name="password" value="Password"/>
+        <br/>
+        Male <input type="radio" name="sex" value="Male"/>|
+        Female  <input type="radio" name="sex" value="Female"/>
+        <br/>
+        Choose your favourite foods:
+        <br/>
+        Milk <input type="checkbox" name="food" value="Milk"/>
+        Bacon <input type="checkbox" name="food" value="Bacon"/>
+        Omellete <input type="checkbox" name="food" value="Omellete"/>
+        All <input type="checkbox" name="food" value="All"/>
+        <bt/>
+        Say more about yourself:
+        <br/>
+        <textarea name="Bio" rows="5" cols="40">
+            Your Bio
+        </textarea>
+        <br/>
+        What do you love?
+        <select name="Love">
+            <option value="food">Food</option>
+            <option value="cars">Cars</option>
+            <option value="technology">Technology</option>
+            <option value="novels">Novels</option>
+            <option value="exams">Exams</option>
+            <option value="lectures">Lectures</option>
+            <option value="fruits">Fruits</option>
+            <option value="bacon">Bacon</option>
+        </select>
+        <br/>
+        Upload your profile picture
+        <input type="file" name="profile"/>
+        <br/>
+        Sign up <input type="submit" name="Submit" >
+        <br/>
+    </form>
+</div>
+</body>
+</html>
